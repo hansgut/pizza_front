@@ -42,6 +42,14 @@ function Login() {
                         <Button href="/register" variant="secondary" type="button" className="w-100 mt-2">
                             Register
                         </Button>
+                        <Button
+                            href="/forgot-password"
+                            variant="link"
+                            type="button"
+                            className="w-100 mt-2 text-center"
+                        >
+                            I don't remember my password
+                        </Button>
                     </Form>
                 </Col>
             </Row>

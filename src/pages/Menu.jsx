@@ -130,6 +130,17 @@ function MenuPage() {
     }, []);
 
     useEffect(() => {
+        const savedCart = localStorage.getItem('cart');
+        if (savedCart) {
+            setCart(JSON.parse(savedCart));
+        }
+    }, []);
+
+    useEffect(() => {
+        localStorage.setItem('cart', JSON.stringify(cart));
+    }, [cart]);
+
+    useEffect(() => {
         if (selectedCategory === '') {
             setFilteredItems(menuItems);
         } else {
