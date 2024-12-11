@@ -3,16 +3,27 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter, Route, Routes} from "react-router";
 import Home from "./pages/Home.jsx";
 import Login from "./pages/Login.jsx";
+import MyNavbar from "./components/MyNavbar.jsx";
+import Container from "react-bootstrap/Container";
+import Register from "./pages/Register.jsx";
+import Menu from "./pages/Menu.jsx";
 
 function App() {
     return (
     <>
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/login" element={<Login />}/>
-            </Routes>
-        </BrowserRouter>
+        <MyNavbar />
+        <Container>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/login" element={<Login />}/>
+                    <Route path="/register" element={<Register />}/>
+                    <Route path="/menu" element={<Menu />} />
+                    <Route path="*" element={<h1>Not Found</h1>} />
+
+                </Routes>
+            </BrowserRouter>
+        </Container>
     </>
     )
 }
