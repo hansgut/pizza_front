@@ -41,7 +41,7 @@ function MenuPage() {
                 "is_pizza": true,
                 "is_active": true,
                 "category": 3,
-                "image": null
+                "image": "https://www.cobsbread.com/us/wp-content//uploads/2022/09/Pepperoni-pizza-850x630-1.png"
             },
             {
                 "id": 2,
@@ -51,7 +51,7 @@ function MenuPage() {
                 "is_pizza": true,
                 "is_active": true,
                 "category": 3,
-                "image": null
+                "image": "https://ocdn.eu/pulscms-transforms/1/RM4k9kqTURBXy8wNmQzYjQ5YzA2MzRiYTVkZTg2N2M3NjFiYjBjZGFmNC5qcGVnk5UDAB_NA-jNAjKVAs0EsADDw5MJpjY5NDQyYwbeAAGhMAE/pizza-margherita.jpeg"
             },
             {
                 "id": 3,
@@ -61,7 +61,7 @@ function MenuPage() {
                 "is_pizza": true,
                 "is_active": true,
                 "category": 2,
-                "image": null
+                "image": "https://img.pikbest.com/wp/202344/tomato-pepper-delectable-veggie-delight-a-flavorful-pizza-topped-with-olives-red-and_9924628.jpg!w700wp"
             },
             {
                 "id": 4,
@@ -71,7 +71,7 @@ function MenuPage() {
                 "is_pizza": false,
                 "is_active": true,
                 "category": 3,
-                "image": null
+                "image": "https://media.istockphoto.com/id/487787108/pl/zdj%C4%99cie/czy-coca-coli-na-lodzie.jpg?s=612x612&w=0&k=20&c=l0pWyHA_owEd0prwQpoECIDH5k-IU4OVxWBh6b_n5JE="
             }
         ];
 
@@ -348,7 +348,7 @@ function MenuPage() {
                                         ) : (
                                             <Card.Img
                                                 variant="top"
-                                                src="https://via.placeholder.com/300x200?text=No+Image"
+                                                src="https://via.placeholder.com/300x200?text=No+Pizza+Image"
                                                 alt="No Image Available"
                                             />
                                         )}
