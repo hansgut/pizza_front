@@ -8,6 +8,7 @@ import Container from "react-bootstrap/Container";
 import Register from "./pages/Register.jsx";
 import Menu from "./pages/Menu.jsx";
 import ForgotPassword from "./pages/ForgotPassword.jsx";
+import Checkout from "./pages/Checkout.jsx";
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
                     <Route path="/register" element={<Register />}/>
                     <Route path="/menu" element={<Menu />} />
                     <Route path="/forgot-password" element={<ForgotPassword />} />
+                    <Route path="/checkout" element={<Checkout />} />
                     <Route path="*" element={<h1>Not Found</h1>} />
 
                 </Routes>

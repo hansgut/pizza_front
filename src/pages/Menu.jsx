@@ -475,6 +475,8 @@ function MenuPage() {
                                     </Row>
                                 </ListGroup.Item>
                             </ListGroup>
+                            {/*on click button to /checkout endpoint*/}
+                            <Button variant="primary" className="w-100 mt-3" onClick={()=>window.location.href="/checkout"}>Checkout</Button>
                         </>
                     )}
                 </Col>
